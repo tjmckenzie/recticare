@@ -2598,6 +2598,9 @@ ul.tabs {
       color: #ffffff;
       border: 1px solid black;
       background: linear-gradient(#5bc3f2, #1092cd); }
+      @media screen and (max-width: 600px) {
+        #product-choice table.styled thead {
+          font-size: 0.75em; } }
       #product-choice table.styled thead th {
         border: 0;
         text-align: center; }

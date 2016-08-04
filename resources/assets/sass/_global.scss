@@ -240,6 +240,10 @@ ul.tabs{
             color: $light-gray;
             border: 1px solid black;
             background: linear-gradient($blue, darken($blue, 22%));
+
+            @include media($tablet) {
+                font-size: 0.75em;
+            }
             th {
                 border: 0;
                 text-align: center;
