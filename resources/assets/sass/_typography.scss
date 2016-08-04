@@ -1,0 +1,33 @@
+$step-size-heading: 0.33333;
+/* The mixin */
+@mixin heading-size($size) {
+    font-size: $size * $step-size-heading + em;
+}
+h1 {
+    @include heading-size(6);
+}
+h2 {
+    @include heading-size(5);
+}
+h3 {
+    @include heading-size(4);
+}
+h4 {
+    @include heading-size(3);
+}
+h5 {
+    @include heading-size(2);
+}
+h6 {
+    @include heading-size(1);
+}
+
+ul.bullet {
+    list-style-type: none;
+    li:before {
+        color: $blue;
+        font-family: FontAwesome;
+        content: "\f192";
+        margin-right: 1em;
+    }
+}

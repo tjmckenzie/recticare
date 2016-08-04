@@ -1,0 +1,73 @@
+#product {
+    .hero {
+        padding-top: 3em;
+        background: linear-gradient($light-gray, lighten($blue, 20%));
+
+        .container {
+            display: flex;
+
+            @include media($desktop) {
+                flex-direction: column;
+            }
+
+            .half {
+                flex: 1 50%;
+
+                @include media($desktop) {
+                    flex: 1 100%;
+                }
+            }
+
+        }
+
+        h1 {
+            color: #00adee;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+            text-align: center;
+
+            .subhead {
+                display: block;
+                font-size: .8em;
+            }
+
+            @include media($desktop) {
+                text-align: center;
+            }
+        }
+
+        img.feature {
+            max-height: 500px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        #overview {
+            ul.bullet {
+                li {
+                    margin-right: 2em;
+                    &:before {
+                        font-size: 50%;
+                    }
+                }
+            }
+            h4 {
+                margin-top: 1em;
+                color: #00adee;
+                &.underline {
+                    border-bottom: 1px solid $blue;
+                }
+            }
+
+            .retailers {
+                @include clearfix;
+                img {
+                    display: block;
+                    float: left;
+                    margin: .5em 2em 1em 0;
+                    max-height: 30px;
+                    width: auto;
+                }
+            }
+        }
+    }
+}

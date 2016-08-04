@@ -1,0 +1,109 @@
+#products {
+    #products-banner-background {
+        background-color: #5bc3f2;
+
+        border-top: 1px solid #5bc3f2;
+        border-bottom: 1px solid #5bc3f2;
+        padding: .5em 0;
+        background-clip: content-box;
+
+        img {
+            display: block;
+            max-height: 450px;
+            margin: 0 auto;
+        }
+    }
+
+    #product-list {
+        .product {
+            // @include span-columns(12);
+            background-color: $light-gray;
+            border: 1px solid #5bc3f2;
+            padding: 5em;
+            margin-bottom: 2em;
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: flex;
+
+            @include media($desktop) {
+                // display: block;
+                padding: 2em;
+                flex-wrap: wrap;
+            }
+
+            img {
+                max-height: 300px;
+            }
+
+            h1, h2 {
+                color: #00adee;
+                text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+                border-bottom: 1px solid $blue;
+            }
+
+            &.left {
+                background-image: url('/images/product-list-background-left.png');
+                background-position: left;
+
+                @include media($desktop) {
+                    background-position: top left;
+                }
+
+                .desc {
+                    text-align: right;
+                }
+
+                .image {
+                    text-align: left;
+                }
+            }
+
+            &.right {
+                background-position: right;
+                background-image: url('/images/product-list-background-right.png');
+
+                @include media($desktop) {
+                    background-position: top right;
+                }
+
+                .desc {
+                    text-align: left;
+                }
+
+                .image {
+                    text-align: right;
+                }
+
+            }
+
+            .half {
+                flex: 1;
+                flex-basis: 50%;
+                align-self: center;
+
+                @include media($desktop) {
+                    flex: 1 100%;
+
+                    &.image {
+                        order: 1;
+                        text-align: center;
+                    }
+                    &.desc {
+                        order: 2;
+                        text-align: left;
+
+                        .btn.primary {
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+
+            ul {
+                margin-bottom: 1em;
+                font-size: 110%;
+            }
+        }
+    }
+}
