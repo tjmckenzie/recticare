@@ -2,6 +2,9 @@
 
 @section('page_title', 'Recticare')
 @section('page_id', 'patient-resources')
+@section('canonical')
+<link rel="canonical" href="{{ url('/patient-resources') }}" />
+@endsection
 
 @section('content')
 
