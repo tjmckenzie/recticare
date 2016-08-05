@@ -21,6 +21,7 @@
         <div class="container padded">
 
             <ul class="tabs">
+                <li class="tabs-menu"><i class="fa fa-bars"></i></li>
                 <li class="tab-link {{ (is_null($section) OR $section == 'common-issues') ? 'current' : '' }}" data-tab="common-issues">Common Issues</li>
                 <li class="tab-link {{ ($section == 'hemorrhoid-treatment') ? 'current' : '' }}" data-tab="hemorrhoid-treatment">Hemorrhoid Treatment</li>
                 <li class="tab-link {{ ($section == 'patient-resource') ? 'current' : '' }}" data-tab="patient-resource">Patient Resources</li>
