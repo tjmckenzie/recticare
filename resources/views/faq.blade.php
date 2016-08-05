@@ -30,33 +30,32 @@
 
         <div class="qa-container">
             <div class="item">
-                <h3 class="question">1. What is this?</h3>
-                <p class="answer">What the hell do you think it is?</p>
-                <p class="answer">What the hell do you think it is?</p>
+                <h3 class="question">Fusce auctor orci sed nisi cursus, vel mollis dui vestibulum?</h3>
+                <p class="answer">Quisque quis blandit augue. Ut eu ante faucibus, volutpat turpis sed, porttitor purus.</p>
             </div>
             <div class="item">
-                <h3 class="question">2. What is this?</h3>
-                <p class="answer">What the hell do you think it is?</p>
+                <h3 class="question">Vivamus a eros quis velit iaculis facilisis a eu metus?</h3>
+                <p class="answer">Nunc ac convallis enim, eget elementum velit. Cras ut arcu porttitor, tempus felis in, lobortis enim.</p>
             </div>
             <div class="item">
-                <h3 class="question">3. What is this?</h3>
-                <p class="answer">What the hell do you think it is?</p>
+                <h3 class="question">Cras dictum eros id odio convallis finibus?</h3>
+                <p class="answer">Aenean efficitur blandit felis maximus rutrum.</p>
             </div>
             <div class="item">
-                <h3 class="question">4. What is this?</h3>
-                <p class="answer">What the hell do you think it is?</p>
+                <h3 class="question">Duis et metus elementum, semper mi ac, tincidunt felis?</h3>
+                <p class="answer">No.</p>
             </div>
             <div class="item">
-                <h3 class="question">5. What is this?</h3>
-                <p class="answer">What the hell do you think it is?</p>
+                <h3 class="question">Suspendisse rutrum urna vitae mollis suscipit?</h3>
+                <p class="answer">Yes</p>
             </div>
             <div class="item">
-                <h3 class="question">6. What is this?</h3>
-                <p class="answer">What the hell do you think it is?</p>
+                <h3 class="question">Etiam blandit arcu sed tempus tempus?</h3>
+                <p class="answer">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse rutrum a nulla eu ultrices.</p>
             </div>
             <div class="item">
-                <h3 class="question">7. What is this?</h3>
-                <p class="answer">What the hell do you think it is?</p>
+                <h3 class="question">Phasellus id arcu vel est vestibulum tincidunt id et diam?</h3>
+                <p class="answer">Aliquam mattis porttitor varius. Sed hendrerit quis ante et vehicula. Vivamus scelerisque, turpis ut bibendum consequat, quam tortor efficitur nibh, nec venenatis nulla dui a ex.</p>
             </div>
         </div>
     </div>

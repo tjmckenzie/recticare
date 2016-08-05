@@ -2,6 +2,9 @@
 
 @section('page_title', 'Recticare Anorectal Cream (30g)')
 @section('page_id', 'product')
+@section('canonical')
+<link rel="canonical" href="{{ url('/product/recticare-complete') }}" />
+@endsection
 
 @section('content')
     <div class="hero">
