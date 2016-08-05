@@ -23,7 +23,7 @@ $(document).ready(function () {
         var current_url = '/' + url_parts.splice(0, url_parts.length - 1).join('/');
     }
 
-    $('ul.tabs li').click(function () {
+    $('ul.tabs li:not(".tabs-menu")').click(function () {
         var tab_id = $(this).attr('data-tab');
 
         // Changes URL/History without page reload
@@ -32,8 +32,19 @@ $(document).ready(function () {
         $('ul.tabs li').removeClass('current');
         $('.tab-content').removeClass('current');
 
+        $(this).parent("ul").removeClass("opened");
         $(this).addClass('current');
         $("#" + tab_id).addClass('current');
+    });
+
+    /**
+     * Mobile Tabs
+     */
+    $(".tabs-menu").on("click", function (e) {
+        var menu = $(this).parent("ul");
+        console.log(menu);
+        $(menu).addClass("opened");
+        $(menu).find("li.current").removeClass("current");
     });
 
     /**
