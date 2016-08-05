@@ -15,6 +15,7 @@
             <div class="half">
 
                 <ul class="tabs">
+                    <li class="tabs-menu"><i class="fa fa-bars"></i></li>
                     <li class="tab-link {{ (is_null($section) OR $section == 'overview') ? 'current' : '' }}" data-tab="overview">Overview</li>
                     <li class="tab-link {{ ($section == 'how-it-works') ? 'current' : '' }}" data-tab="how-it-works">How It Works</li>
                     <li class="tab-link {{ ($section == 'ingredients') ? 'current' : '' }}" data-tab="ingredients">Ingredients</li>
