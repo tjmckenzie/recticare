@@ -6,6 +6,7 @@
         justify-content: space-between;
 
         @include media($desktop) {
+            display: block;
             flex-direction: column;
         }
 
@@ -23,6 +24,7 @@
         justify-content: space-between;
 
         @include media($desktop) {
+            display: block;
             flex-direction: column;
         }
 

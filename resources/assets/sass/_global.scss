@@ -235,6 +235,7 @@ ul.tabs{
     display: flex;
 
     @include media($desktop) {
+        display: block;
         flex-direction: column;
     }
 
