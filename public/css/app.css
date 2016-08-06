@@ -2595,6 +2595,7 @@ ul.tabs {
   display: flex; }
   @media screen and (max-width: 900px) {
     #product-choice {
+      display: block;
       -ms-flex-direction: column;
       flex-direction: column; } }
   #product-choice #desc {
@@ -2959,6 +2960,7 @@ ul.bullet {
     font-size: 110%; }
 
 #product .hero {
+  display: block;
   padding: 2em 0;
   background: linear-gradient(#ffffff, #bae6f9); }
   #product .hero .container {
@@ -2966,6 +2968,7 @@ ul.bullet {
     display: flex; }
     @media screen and (max-width: 900px) {
       #product .hero .container {
+        display: block;
         -ms-flex-direction: column;
         flex-direction: column; } }
     #product .hero .container .half {
@@ -3063,6 +3066,7 @@ ul.bullet {
   justify-content: space-between; }
   @media screen and (max-width: 900px) {
     #faq .row {
+      display: block;
       -ms-flex-direction: column;
       flex-direction: column; } }
   #faq .row .half {
@@ -3082,6 +3086,7 @@ ul.bullet {
   justify-content: space-between; }
   @media screen and (max-width: 900px) {
     #faq .qa-container {
+      display: block;
       -ms-flex-direction: column;
       flex-direction: column; } }
   #faq .qa-container .item {
