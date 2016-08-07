@@ -401,6 +401,23 @@ ul.horizontal-nav {
         width: 100%;
         z-index: 9999;
 
+        &.coupon {
+            position: absolute;
+            right: 0;
+            display: inline-block;
+            width: auto;
+
+            a {
+                color: $light-gray;
+                text-align: center;
+                padding: .5em;
+
+                &:hover {
+                    color: $light-gray;
+                }
+            }
+        }
+
         &.logo {
             display: none;
             line-height: 0;
