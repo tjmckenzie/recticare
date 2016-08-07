@@ -24,7 +24,7 @@
                     <img src="{{ url('images/product/RectiCare_Cream_Front.png') }}" />
                 </div>
                 <div class="half desc">
-                    <h1>RectiCare Anorectal Cream (30g)</h1>
+                    <h1>RectiCare Anorectal Cream <sup>(30g)</sup></h1>
                     <ul class="bullet">
                         <li>The highest lidocaine strength available over-the-counter</li>
                         <li>Provides rapid relief from pain, itching and burning</li>
@@ -59,7 +59,7 @@
                     <img src="{{ url('images/product/RectiCare_CreamVert_Front.png') }}" />
                 </div>
                 <div class="half desc">
-                    <h1>RectiCare Anorectal Cream (15g)</h1>
+                    <h1>RectiCare Anorectal Cream <sup>(15g)</sup></h1>
                     <ul class="bullet">
                         <li>The highest lidocaine strength available over-the-counter</li>
                         <li>Provides rapid relief from pain, itching and burning</li>

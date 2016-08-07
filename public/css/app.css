@@ -2918,7 +2918,7 @@ ul.bullet {
   #products #products-banner-background #banner-text {
     position: absolute;
     top: 20%;
-    left: 57%;
+    left: 55%;
     background: linear-gradient(to right, transparent, #0f88be 250px);
     width: 2000px;
     padding: .5em;
@@ -2929,7 +2929,7 @@ ul.bullet {
       padding: 0;
       margin: 0; }
     #products #products-banner-background #banner-text p {
-      font-size: 1.3em;
+      font-size: 1.15em;
       font-weight: bold;
       padding: 0;
       margin: 0; }
@@ -3103,6 +3103,26 @@ ul.bullet {
       flex: 1;
       -ms-flex-item-align: center;
       align-self: center; }
+      #where-to-buy #product-list .product .col-half.locations {
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap; }
+        #where-to-buy #product-list .product .col-half.locations .retailers {
+          margin-bottom: 1em; }
+          #where-to-buy #product-list .product .col-half.locations .retailers::after {
+            clear: both;
+            content: "";
+            display: block; }
+          #where-to-buy #product-list .product .col-half.locations .retailers h4 {
+            display: block;
+            margin: 0;
+            padding: 0; }
+          #where-to-buy #product-list .product .col-half.locations .retailers img {
+            float: left;
+            margin: .5em 2em 1em 0;
+            max-height: 30px;
+            width: auto; }
       @media screen and (max-width: 480px) {
         #where-to-buy #product-list .product .col-half {
           -ms-flex: 1 100%;

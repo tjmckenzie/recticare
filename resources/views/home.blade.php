@@ -19,7 +19,7 @@
         <div class=" product">
             <a href="{{ url('/product/recticare-cream') }}">
                 <img src="{{ url('images/product/RectiCare_Cream_Front.png') }}" />
-                <p><strong>RectiCare Anorectal Cream</strong> (30g)</p>
+                <p><strong>RectiCare Anorectal Cream</strong> <sup>(30g)</sup></p>
             </a>
         </div>
         <div class=" product">
@@ -31,7 +31,7 @@
         <div class=" product">
             <a href="{{ url('/product/recticare-cream') }}">
                 <img src="{{ url('images/product/RectiCare_CreamVert_Front.png') }}" />
-                <p><strong>RectiCare Anorectal Cream</strong> (15g)</p>
+                <p><strong>RectiCare Anorectal Cream</strong> <sup>(15g)</sup></p>
             </a>
         </div>
         <div class=" product">
