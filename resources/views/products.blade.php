@@ -9,6 +9,10 @@
         <div id="products-banner-elements" class="container">
             <img src="{{ url('images/products-banner-elements.png') }}" />
         </div>
+        <div id="banner-text">
+            <h1>RectiCare Products</h1>
+            <p>Recommended by Colon &amp; Rectal Surgeons</p>
+        </div>
     </div>
 
     <div class="gradient-background">

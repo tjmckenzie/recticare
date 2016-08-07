@@ -40,7 +40,7 @@
                 <a href="{{ url('/') }}" class="mobile-logo">
                     <img src="{{ url('images/logo-nav.png') }}" alt="Recticare Logo">
                 </a>
-                <a href="javascript:void(0)" id="mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
+                <a href="javascript:void(0)" id="mobile-menu" class="centered-navigation-mobile-menu">MENU <span class="fa fa-bars"></span></a>
                 <nav role="navigation">
                     <ul class="centered-navigation-menu">
                         <li class="nav-link"><a href="{{ url('/products') }}">Products</a></li>
@@ -52,7 +52,7 @@
                         </li>
                         <li class="nav-link"><a href="{{ url('/doctors') }}">Doctors</a></li>
                         <li class="nav-link"><a href="{{ url('/patient-resources') }}">Patient Resources</a></li>
-                        {{-- <li class="nav-link coupon"><a href="javascript:void(0)">Coupons</a></li> --}}
+                        <li class="nav-link coupon"><a href="javascript:void(0)" class="btn shadow">Get Coupons</a></li>
                     </ul>
                 </nav>
             </div>
