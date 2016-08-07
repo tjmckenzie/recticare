@@ -33,6 +33,29 @@
                 flex: 1;
                 align-self: center;
 
+                &.locations {
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    .retailers {
+                        @include clearfix;
+                        margin-bottom: 1em;
+                        h4 {
+                            display: block;
+                            margin: 0;
+                            padding: 0;
+                        }
+                        img {
+                            // background-color: red;
+                            // display: block;
+                            float: left;
+                            margin: .5em 2em 1em 0;
+                            max-height: 30px;
+                            width: auto;
+                        }
+                    }
+                }
+
+
                 @include media($mobile) {
                     flex: 1 100%;
                 }

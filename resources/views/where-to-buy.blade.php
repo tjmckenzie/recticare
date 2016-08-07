@@ -23,20 +23,20 @@
             <div class="product">
                 <div class="col-half image">
                     <img src="{{ url('images/product/RectiCare_Cream_Front.png') }}" />
-                    <h3>RectiCare Anorectal Cream (30g)</h3>
+                    <h3>RectiCare Anorectal Cream <sup>(30g)</sup></h3>
                 </div>
                 <div class="col-half locations">
+                    <div class="retailers">
+                        <h4>Buy Online or In-Store:</h4>
+                        <img src="{{ url('images/retailers/cvs.png') }}" />
+                        <img src="{{ url('images/retailers/walmart.png') }}" />
+                        <img src="{{ url('images/retailers/riteaid.png') }}" />
+                        <img src="{{ url('images/retailers/duanereade.png') }}" />
+                    </div>
 
                     <div class="retailers">
-                        <h4 class="underline">Buy Online or In-Store:</h4>
-                        <img src="http://placehold.it/75x50" />
-                        <img src="http://placehold.it/75x50" />
-                        <img src="http://placehold.it/75x50" />
-                        <img src="http://placehold.it/75x50" />
-                        <img src="http://placehold.it/75x50" />
-
-                        <h4 class="underline">Buy In-Store Only:</h4>
-                        <img src="http://placehold.it/75x50" />
+                        <h4>Buy In-Store Only:</h4>
+                        <img src="{{ url('images/retailers/drugstore.png') }}" />
                     </div>
                 </div>
             </div>
@@ -48,15 +48,16 @@
                 </div>
                 <div class="col-half locations">
                     <div class="retailers">
-                        <h4 class="underline">Buy Online or In-Store:</h4>
-                        <img src="http://placehold.it/75x50" />
-                        <img src="http://placehold.it/75x50" />
-                        <img src="http://placehold.it/75x50" />
-                        <img src="http://placehold.it/75x50" />
-                        <img src="http://placehold.it/75x50" />
+                        <h4>Buy Online or In-Store:</h4>
+                        <img src="{{ url('images/retailers/cvs.png') }}" />
+                        <img src="{{ url('images/retailers/walmart.png') }}" />
+                        <img src="{{ url('images/retailers/riteaid.png') }}" />
+                        <img src="{{ url('images/retailers/duanereade.png') }}" />
+                    </div>
 
-                        <h4 class="underline">Buy In-Store Only:</h4>
-                        <img src="http://placehold.it/75x50" />
+                    <div class="retailers">
+                        <h4>Buy In-Store Only:</h4>
+                        <img src="{{ url('images/retailers/drugstore.png') }}" />
                     </div>
                 </div>
             </div>
@@ -64,19 +65,20 @@
             <div class="product">
                 <div class="col-half image">
                     <img src="{{ url('images/product/RectiCare_CreamVert_Front.png') }}" />
-                    <h3>RectiCare Anorectal Cream (15g)</h3>
+                    <h3>RectiCare Anorectal Cream <sup>(15g)</sup></h3>
                 </div>
                 <div class="col-half locations">
                     <div class="retailers">
-                        <h4 class="underline">Buy Online or In-Store:</h4>
-                        <img src="http://placehold.it/75x50" />
-                        <img src="http://placehold.it/75x50" />
-                        <img src="http://placehold.it/75x50" />
-                        <img src="http://placehold.it/75x50" />
-                        <img src="http://placehold.it/75x50" />
+                        <h4>Buy Online or In-Store:</h4>
+                        <img src="{{ url('images/retailers/cvs.png') }}" />
+                        <img src="{{ url('images/retailers/walmart.png') }}" />
+                        <img src="{{ url('images/retailers/riteaid.png') }}" />
+                        <img src="{{ url('images/retailers/duanereade.png') }}" />
+                    </div>
 
-                        <h4 class="underline">Buy In-Store Only:</h4>
-                        <img src="http://placehold.it/75x50" />
+                    <div class="retailers">
+                        <h4>Buy In-Store Only:</h4>
+                        <img src="{{ url('images/retailers/drugstore.png') }}" />
                     </div>
                 </div>
             </div>
@@ -88,15 +90,16 @@
                 </div>
                 <div class="col-half locations">
                     <div class="retailers">
-                        <h4 class="underline">Buy Online or In-Store:</h4>
-                        <img src="http://placehold.it/75x50" />
-                        <img src="http://placehold.it/75x50" />
-                        <img src="http://placehold.it/75x50" />
-                        <img src="http://placehold.it/75x50" />
-                        <img src="http://placehold.it/75x50" />
+                        <h4>Buy Online or In-Store:</h4>
+                        <img src="{{ url('images/retailers/cvs.png') }}" />
+                        <img src="{{ url('images/retailers/walmart.png') }}" />
+                        <img src="{{ url('images/retailers/riteaid.png') }}" />
+                        <img src="{{ url('images/retailers/duanereade.png') }}" />
+                    </div>
 
-                        <h4 class="underline">Buy In-Store Only:</h4>
-                        <img src="http://placehold.it/75x50" />
+                    <div class="retailers">
+                        <h4>Buy In-Store Only:</h4>
+                        <img src="{{ url('images/retailers/drugstore.png') }}" />
                     </div>
                 </div>
             </div>
