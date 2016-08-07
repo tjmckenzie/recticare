@@ -43,8 +43,8 @@ Route::get('/reviews', function () {
     return view('reviews');
 });
 
-Route::get('/doctors', function () {
-    return view('doctors');
+Route::get('/doctors/{section?}', function ( $section = null ) {
+    return view('doctors', compact('section'));
 });
 
 Route::get('/about-us', function () {
