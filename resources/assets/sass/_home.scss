@@ -15,6 +15,10 @@
             max-height: 450px;
             margin: 0 auto;
         }
+
+        @include media($desktop) {
+            padding: 0;
+        }
     }
 
     #products-cta {

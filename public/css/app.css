@@ -2527,7 +2527,7 @@ ul.tabs {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   display: -ms-flexbox;
   display: flex; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 900px) {
     ul.tabs {
       -ms-flex-direction: column;
       flex-direction: column;
@@ -2559,7 +2559,7 @@ ul.tabs {
       border: 1px solid #5bc3f2;
       border-bottom: 0;
       color: #00adee; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 900px) {
       ul.tabs li {
         padding: 1em;
         border-radius: 0;
@@ -2717,6 +2717,17 @@ ul.horizontal-nav {
     text-align: right;
     width: 100%;
     z-index: 9999; }
+    .centered-navigation ul li.nav-link.coupon {
+      position: absolute;
+      right: 0;
+      display: inline-block;
+      width: auto; }
+      .centered-navigation ul li.nav-link.coupon a {
+        color: #ffffff;
+        text-align: center;
+        padding: .5em; }
+        .centered-navigation ul li.nav-link.coupon a:hover {
+          color: #ffffff; }
     .centered-navigation ul li.nav-link.logo {
       display: none;
       line-height: 0; }
@@ -2741,6 +2752,10 @@ ul.horizontal-nav {
         line-height: 60px; }
         .centered-navigation ul li.nav-link a {
           padding-right: 1em; } }
+    @media screen and (max-width: 900px) {
+      .centered-navigation ul li.nav-link.coupon {
+        position: relative;
+        display: block; } }
 
 .footer {
   background-color: #636363;
@@ -2828,6 +2843,9 @@ ul.bullet {
     display: block;
     max-height: 450px;
     margin: 0 auto; }
+  @media screen and (max-width: 900px) {
+    #home #homepage-banner-background {
+      padding: 0; } }
 
 #home #products-cta {
   margin-top: -2.25em;
@@ -2883,15 +2901,51 @@ ul.bullet {
       margin-right: 0; } }
 
 #products #products-banner-background {
+  position: relative;
   background-color: #5bc3f2;
   border-top: 1px solid #5bc3f2;
   border-bottom: 1px solid #5bc3f2;
   padding: .5em 0;
-  background-clip: content-box; }
+  background-clip: content-box;
+  overflow: hidden; }
   #products #products-banner-background img {
     display: block;
     max-height: 450px;
     margin: 0 auto; }
+  @media screen and (max-width: 900px) {
+    #products #products-banner-background {
+      padding: 0; } }
+  #products #products-banner-background #banner-text {
+    position: absolute;
+    top: 20%;
+    left: 57%;
+    background: linear-gradient(to right, transparent, #0f88be 250px);
+    width: 2000px;
+    padding: .5em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    padding-left: 2em; }
+    #products #products-banner-background #banner-text h1 {
+      padding: 0;
+      margin: 0; }
+    #products #products-banner-background #banner-text p {
+      font-size: 1.3em;
+      font-weight: bold;
+      padding: 0;
+      margin: 0; }
+    @media screen and (max-width: 900px) {
+      #products #products-banner-background #banner-text {
+        text-align: center;
+        display: block;
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: #0f88be; }
+        #products #products-banner-background #banner-text h1 {
+          font-size: 1.3em; }
+        #products #products-banner-background #banner-text p {
+          font-size: 1em; } }
 
 #products #product-list .product {
   background-color: #ffffff;

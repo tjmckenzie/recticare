@@ -1,16 +1,63 @@
 #products {
     #products-banner-background {
+        position: relative;
         background-color: #5bc3f2;
 
         border-top: 1px solid #5bc3f2;
         border-bottom: 1px solid #5bc3f2;
         padding: .5em 0;
         background-clip: content-box;
+        overflow: hidden;
 
         img {
             display: block;
             max-height: 450px;
             margin: 0 auto;
+        }
+
+        @include media($desktop) {
+            padding: 0;
+        }
+
+        #banner-text {
+            position: absolute;
+            top: 20%;
+            left: 57%;
+            background: linear-gradient(to right, transparent, darken($blue, 25%) 250px);
+            width: 2000px;
+            padding: .5em;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+            color: $light-gray;
+            padding-left: 2em;
+
+            h1 {
+                padding: 0;
+                margin: 0;
+            }
+
+            p {
+                font-size: 1.3em;
+                font-weight: bold;
+                padding: 0;
+                margin: 0;
+            }
+
+            @include media($desktop) {
+                text-align: center;
+                display: block;
+                position: relative;
+                width: 100%;
+                top: 0;
+                left: 0;
+                background: darken($blue, 25%);
+
+                h1{
+                    font-size: 1.3em;
+                }
+                p {
+                    font-size: 1em;
+                }
+            }
         }
     }
 
