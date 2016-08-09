@@ -28,7 +28,7 @@
                 <li class="tab-link {{ (is_null($section) OR $section == 'common-issues') ? 'current' : '' }}" data-tab="common-issues">Common Issues</li>
                 <li class="tab-link {{ ($section == 'hemorrhoid-treatment') ? 'current' : '' }}" data-tab="hemorrhoid-treatment">Hemorrhoid Treatment</li>
                 <li class="tab-link {{ ($section == 'patient-resource') ? 'current' : '' }}" data-tab="patient-resource">Patient Resources</li>
-                <li class="tab-link {{ ($section == 'colon-cancer-alliance') ? 'current' : '' }}" data-tab="colon-cancer-alliance">Colon Cander Alliance</li>
+                <li class="tab-link {{ ($section == 'colon-cancer-alliance') ? 'current' : '' }}" data-tab="colon-cancer-alliance">Colon Cancer Alliance</li>
                 <li class="tab-link {{ ($section == 'contact-us') ? 'current' : '' }}" data-tab="contact-us">Contact Us</li>
             </ul>
 
