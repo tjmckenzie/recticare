@@ -411,7 +411,7 @@ ul.horizontal-nav {
                 text-align: center;
                 padding: .5em;
 
-                &:hover {
+                &:hover, &:active, &:focus {
                     color: $light-gray;
                 }
             }
