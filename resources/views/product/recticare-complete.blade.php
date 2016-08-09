@@ -57,7 +57,13 @@
                 </div>
 
                 <div id="ingredients" class="tab-content {{ ($section == 'ingredients') ? 'current' : '' }}">
-                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3>Advanced Cream</h3>
+                    <p><strong>Active Ingredients:</strong> Lidocaine 5% Mineral Oil 17%, Phenylephrine HCl 0.25%, White Petrolatum 39%</p>
+                    <p><strong>Inactive Ingredients:</strong> Benzyl Alcohol, Carbomer 940, Cholesterol, Hydrogenated Lecithin, Isopropyl Myristate, Polysorbate 80, Propylene Glycol, Purified Water, Trolamine, Vitamin E Acetate</p>
+
+                    <h3>Advanced Wipes</h3>
+                    <p><strong>Active Ingredient:</strong> Lidocaine 5%, Glycerin 20%, Phenylephrine HCl 0.25%</p>
+                    <p><strong>Inactive Ingredients:</strong> Benzyl Alcohol, Citric Acid, Purified Water</p>
                 </div>
 
                 <div id="faq" class="tab-content {{ ($section == 'faq') ? 'current' : '' }}">

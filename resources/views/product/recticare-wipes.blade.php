@@ -50,7 +50,8 @@
                     <p>In adults and children 12 and over, the wipes can be used up to 6 times a day, or after bowel movements.</p>
                 </div>
                 <div id="ingredients" class="tab-content {{ ($section == 'ingredients') ? 'current' : '' }}">
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p><strong>Active Ingredients:</strong> Lidocaine 4.3%, Glycerin 20%</p>
+                    <p><strong>Inactive Ingredients:</strong> Citric Acid, Sodium Citrate, Potassium Sorbate, Phenoxyethanol, Purified Water</p>
                 </div>
                 <div id="faq" class="tab-content {{ ($section == 'faq') ? 'current' : '' }}">
                     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

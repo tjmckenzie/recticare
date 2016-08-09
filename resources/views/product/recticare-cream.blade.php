@@ -50,7 +50,8 @@
                     <p>Using one of the finger cots included in the package, apply a small amount of the Cream to the affected area. The lidocaine acts as a local anesthetic so the discomfort you normally feel does not disrupt your day.</p>
                 </div>
                 <div id="ingredients" class="tab-content {{ ($section == 'ingredients') ? 'current' : '' }}">
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p><strong>Active Ingredients:</strong> Lidocaine 5%</p>
+                    <p><strong>Inactive Ingredients:</strong> Benzyl Alcohol, Carbomer 940, Cholesterol, Hydrogenated Lecithin, Isopropyl Myristate, Polysorbate 80, Propylene Glycol, Purified Water, Trolamine, Vitamin E Acetate</p>
                 </div>
                 <div id="faq" class="tab-content {{ ($section == 'faq') ? 'current' : '' }}">
                     Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
