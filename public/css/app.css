@@ -2726,7 +2726,7 @@ ul.horizontal-nav {
         color: #ffffff;
         text-align: center;
         padding: .5em; }
-        .centered-navigation ul li.nav-link.coupon a:hover {
+        .centered-navigation ul li.nav-link.coupon a:hover, .centered-navigation ul li.nav-link.coupon a:active, .centered-navigation ul li.nav-link.coupon a:focus {
           color: #ffffff; }
     .centered-navigation ul li.nav-link.logo {
       display: none;
