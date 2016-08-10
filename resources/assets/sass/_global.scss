@@ -13,6 +13,17 @@ html{
     white-space: nowrap;
 }
 
+img.pull-left {
+    float:left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+img.thumb {
+    max-width: 200px;
+    height: auto;
+}
+
 .container {
     @include outer-container;
 

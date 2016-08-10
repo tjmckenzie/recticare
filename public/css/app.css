@@ -2386,6 +2386,15 @@ html {
 .nowrap {
   white-space: nowrap; }
 
+img.pull-left {
+  float: left;
+  padding-right: 2em;
+  padding-bottom: 2em; }
+
+img.thumb {
+  max-width: 200px;
+  height: auto; }
+
 .container {
   max-width: 1200px;
   margin-left: auto;
@@ -2409,7 +2418,7 @@ html {
 .large-text {
   font-size: 130%; }
 
-.shadow, blockquote, #faq .qa-container .item {
+.shadow, blockquote, #patient-resources .link-container .item, #faq .qa-container .item {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); }
 
 .col-one-third {
@@ -3129,6 +3138,24 @@ ul.bullet {
           flex: 1 100%; } }
       #where-to-buy #product-list .product .col-half.image {
         text-align: center; }
+
+#patient-resources .link-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-flow: wrap row;
+  flex-flow: wrap row; }
+  #patient-resources .link-container .item {
+    -ms-flex: 1;
+    flex: 1;
+    padding: .5em;
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%;
+    background-color: #efefef;
+    -ms-flex-negative: 2;
+    flex-shrink: 2;
+    margin: 0.5em; }
 
 #faq .row {
   display: -ms-flexbox;

@@ -1,0 +1,21 @@
+#patient-resources {
+    .link-container {
+        display: flex;
+        // background-color: pink;
+        // padding: 1em;
+        justify-content: space-between;
+        flex-flow: wrap row;
+
+        .item {
+            flex: 1;
+            padding: .5em;
+            flex-basis: 30%;
+            background-color: lighten($dark-gray, 55%);
+            flex-shrink: 2;
+            margin: 0.5em;
+            @extend .shadow;
+            // justify-content: space-between;
+            // margin: 2em;
+        }
+    }
+}
