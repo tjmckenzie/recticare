@@ -142,11 +142,56 @@
             </div>
             <div id="patient-resource" class="tab-content {{ ($section == 'patient-resource') ? 'current' : '' }}">
                 <h3>Patient Resources</h3>
-                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <p>Many patients delay or don’t seek treatment because of their lack of knowledge about their disease and its symptoms – or they are too embarrassed to seek help. Research has demonstrated that early screening and treatment of colon and rectal diseases can improve outcomes and survival rates. A number of organizations are committed to the research, education and treatment of these diseases. Below are the links to their Patient Education and Patient Resource Center’s.</p>
+                <div class="link-container">
+
+                    <div class="item">
+                        <h4>American Society of Colon & Rectal Surgeons</h4>
+                        <a href="https://www.fascrs.org/patients" target="_blank">https://www.fascrs.org/patients</a>
+                    </div>
+
+                    <div class="item">
+                        <h4>American College of Gastroenterology</h4>
+                        <a href="http://patients.gi.org" target="_blank"> http://patients.gi.org</a>
+                    </div>
+
+                    <div class="item">
+                        <h4>American Gastroenterology Association</h4>
+                        <a href="http://www.gastro.org/patient-care" target="_blank">http://www.gastro.org/patient-care</a>
+                    </div>
+
+                    <div class="item">
+                        <h4>The American Congress of Obstetricians and Gynecologists </h4>
+                        <a href="http://www.acog.org/Patients/FAQs/Problems-of-the-Digestive-System" target="_blank">http://www.acog.org/Patients/FAQs/Problems-of-the-Digestive-System</a>
+                    </div>
+
+                    <div class="item">
+                        <h4>International Foundation for Functional Gastrointestinal Disorders </h4>
+                        <a href="https://www.iffgd.org" target="_blank">https://www.iffgd.org</a>
+                    </div>
+
+                    <div class="item">
+                        <h4>Crohn's &amp; Colitis Foundation of America </h4>
+                        <a href="http://www.ccfa.org" target="_blank">http://www.ccfa.org</a>
+                    </div>
+
+                    <div class="item">
+                        <h4>United Ostomy Associations of America</h4> 
+                        <a href="http://www.ostomy.org/Home.html" target="_blank">http://www.ostomy.org/Home.html</a>
+                    </div>
+
+                    <div class="item">
+                        <h4>AboutIBS.org</h4>
+                        <a href="http://www.aboutibs.org" target="_blank">http://www.aboutibs.org</a>
+                    </div>
+
+                </div>
             </div>
             <div id="colon-cancer-alliance" class="tab-content {{ ($section == 'colon-cancer-alliance') ? 'current' : '' }}">
-                <h3>Colon Cancer</h3>
-                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                <h3>Colon Cancer Alliance</h3>
+                <img src="{{ url('/images/resources/cca.jpg') }}" class="pull-left thumb">
+                <p>The Colon Cancer Alliance, Inc. is the leading national patient advocacy organization dedicated to increasing screening rates and survivorship. Their mission is to provide hope and support to patients and their families, while saving lives through screening, access, awareness, advocacy and research. Since colorectal cancer affects not only those who are diagnosed, the CCA also offers a variety of resources for friends and family.</p>
+                <p>CCA Toll-free Helpline (877) 422-2030</p>
             </div>
             <div id="contact-us" class="tab-content {{ ($section == 'contact-us') ? 'current' : '' }}">
                 <h3>Contact Us</h3>
