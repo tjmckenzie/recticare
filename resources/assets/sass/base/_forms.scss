@@ -56,6 +56,14 @@ select[multiple] {
     }
   }
 
+  &.has-error {
+    border-color: $error;
+  }
+
+  &.has-warning {
+    border-color: $warning;
+  }
+
   &::placeholder {
     color: $medium-gray;
   }

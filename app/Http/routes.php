@@ -55,6 +55,8 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::post('/contact', 'ContactController@store');
+
 Route::get('/safety', function () {
     return view('safety');
 });

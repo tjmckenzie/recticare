@@ -92,6 +92,19 @@ blockquote {
     }
 }
 
+.form-input {
+    &.has-error {
+        span.error-msg {
+            color: $error;
+        }
+
+        #{$all-text-inputs},
+        select[multiple] {
+            border-color: $error;
+        }
+    }
+}
+
 .video-container {
     position: relative;
     padding-bottom: 28.25%;
