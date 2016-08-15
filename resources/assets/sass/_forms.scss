@@ -1,0 +1,81 @@
+.form-row {
+	display: flex;
+	justify-content: space-between;
+
+    margin-right: -.5rem;
+    margin-left: -.5rem;
+
+    &.sm-full {
+    	@include media($mobile) {
+			flex-direction: column;
+		}
+    }
+
+    .right {
+		text-align: right;
+	}
+
+	.col {
+	    padding-right: .5rem;
+	    padding-left: .5rem;
+	}
+
+	.half {
+		flex: 1 45%;
+	}
+
+	.third {
+		flex: 1 33%;
+	}
+
+	.two-third {
+		flex: 1 66%;
+	}
+
+	.quarter {
+		flex: 1 25%;
+		@include media($desktop) {
+            flex: 1 100%;
+        }
+	}
+
+	.three-quarter {
+		flex: 1 75%;
+		@include media($desktop) {
+            flex: 1 100%;
+        }
+	}
+
+	.sm-full {
+		@include media($mobile) {
+            flex: 1 100%;
+    		input[type="submit"] {
+	        	width: 100%;
+	        }
+        }
+	}
+}
+
+.form-input {
+    &.has-error {
+        span.error-msg {
+            color: $error;
+        }
+
+        #{$all-text-inputs},
+        select[multiple] {
+            border-color: $error;
+        }
+    }
+
+    &.has-warning {
+        span.error-msg {
+            color: $warning;
+        }
+
+        #{$all-text-inputs},
+        select[multiple] {
+            border-color: $warning;
+        }
+    }
+}
