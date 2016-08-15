@@ -24,11 +24,11 @@ class StoreContactRequest extends Request
     public function rules()
     {
         return [
-            'name' => 'required',
-            'phone' => 'required',
-            'email' => 'required|email',
-            'subject' => 'required',
-            'message' => 'required',
+            'name'       => 'required',
+            'phone'      => 'required',
+            'email'      => 'required|email',
+            'subject'    => 'required',
+            'message'    => 'required',
             'promotions' => 'boolean'
         ];
     }

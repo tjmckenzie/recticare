@@ -20,7 +20,8 @@ class ContactController extends Controller
         $contact = Contact::create($request->except('_token'));
         $contact->ip_address = $request->ip();
         $contact->save();
-        dd($contact);
+
+        return redirect('/contact')->with('success', 'Thank you! Your message has been sent.');
     }
 
     

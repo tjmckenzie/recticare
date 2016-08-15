@@ -24,6 +24,28 @@ img.thumb {
     height: auto;
 }
 
+.msg{
+    padding: .5em;
+    margin: 1em 0;
+
+    p {
+        margin: 0;
+        text-align: center;
+    }
+
+    &.error {
+        border: 2px solid $error;
+        background-color: transparentize($error, 0.7);
+        color: $dark-gray;
+    }
+
+    &.success {
+        border: 2px solid $success;
+        background-color: transparentize($success, 0.7);
+        color: $dark-gray;
+    }
+}
+
 .container {
     @include outer-container;
 
@@ -88,19 +110,6 @@ blockquote {
         font-weight: normal;
         &:before {
             content: '- ';
-        }
-    }
-}
-
-.form-input {
-    &.has-error {
-        span.error-msg {
-            color: $error;
-        }
-
-        #{$all-text-inputs},
-        select[multiple] {
-            border-color: $error;
         }
     }
 }

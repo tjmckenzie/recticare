@@ -47,6 +47,8 @@ Route::get('/doctors/{section?}', function ( $section = null ) {
     return view('doctors', compact('section'));
 });
 
+Route::post('/samples', 'SampleRequestController@store');
+
 Route::get('/about-us', function () {
     return view('about');
 });

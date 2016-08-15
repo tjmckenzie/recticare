@@ -16,10 +16,10 @@ class CreateSampleRequestsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('title');
-            $table->string('nip');
+            $table->string('npi');
             $table->string('state_license_number');
             $table->string('phone');
-            $table->string('email');
+            $table->string('fax');
             $table->string('practice_name');
             $table->string('address');
             $table->string('city');

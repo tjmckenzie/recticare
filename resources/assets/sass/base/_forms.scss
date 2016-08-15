@@ -26,7 +26,7 @@ textarea {
 }
 
 #{$all-text-inputs},
-select[multiple] {
+select {
   background-color: $base-background-color;
   border: $base-border;
   border-radius: $base-border-radius;
@@ -54,14 +54,6 @@ select[multiple] {
     &:hover {
       border: $base-border;
     }
-  }
-
-  &.has-error {
-    border-color: $error;
-  }
-
-  &.has-warning {
-    border-color: $warning;
   }
 
   &::placeholder {
