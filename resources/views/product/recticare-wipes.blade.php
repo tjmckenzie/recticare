@@ -26,9 +26,9 @@
                 </ul>
 
                 <div id="overview" class="tab-content {{ (is_null($section) OR $section == 'overview') ? 'current' : '' }}">
-                    <p>RectiCare’s powerful active ingredient works to relieve discomfort quickly and effectively. The dual action, medicated wipes relieve pain, itching and discomfort and form a protective coating over inflamed tissues.</p>
+                    <p>RectiCare<sup>&reg;</sup>'s powerful active ingredient works to relieve discomfort quickly and effectively. The dual action, medicated wipes relieve pain, itching and discomfort and form a protective coating over inflamed tissues.</p>
                     <p>Individually wrapped, pre-moistened wipes provide fast-acting, soothing relief that goes with you.</p>
-                    <ul class="bullet horizontal-nav">
+                    <ul class="bullet">
                         <li>The highest lidocaine concentration available over-the-counter in a wipe</li>
                         <li>Dual action formula protects and soothes</li>
                         <li>12 individually packaged wipes</li>
@@ -45,7 +45,7 @@
 
                 </div>
                 <div id="how-it-works" class="tab-content {{ ($section == 'how-it-works') ? 'current' : '' }}">
-                    <p>The individually packaged, pre-moistened wipes provide both relief from discomfort and protection from irritation. RectiCare® Wipes have the highest concentration of lidocaine available over-the-counter in a wipe, for rapid pain relief in a convenient, discreet package.</p>
+                    <p>The individually packaged, pre-moistened wipes provide both relief from discomfort and protection from irritation. RectiCare<sup>&reg;</sup> Wipes have the highest concentration of lidocaine available over-the-counter in a wipe, for rapid pain relief in a convenient, discreet package.</p>
                     <p>After tearing opening the package, apply the medication to the clean, affected area by patting gently. This will provide a thin, protective coating of glycerin over the inflamed tissue and help to prevent some further irritation.</p>
                     <p>In adults and children 12 and over, the wipes can be used up to 6 times a day, or after bowel movements.</p>
                 </div>

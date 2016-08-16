@@ -2847,12 +2847,17 @@ h6 {
   font-size: 0.33333em; }
 
 ul.bullet {
-  list-style-type: none; }
+  list-style-type: none;
+  display: table;
+  text-align: left; }
+  ul.bullet li {
+    display: table-row; }
   ul.bullet li:before {
     color: #5bc3f2;
+    display: table-cell;
     font-family: FontAwesome;
     content: "\f192";
-    margin-right: 1em; }
+    width: 1.5em; }
 
 .form-row {
   display: -ms-flexbox;

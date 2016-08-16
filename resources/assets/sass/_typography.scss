@@ -24,10 +24,16 @@ h6 {
 
 ul.bullet {
     list-style-type: none;
+    display: table;
+    text-align: left;
+    li {
+        display: table-row;
+    }
     li:before {
         color: $blue;
+        display: table-cell;
         font-family: FontAwesome;
         content: "\f192";
-        margin-right: 1em;
+        width: 1.5em;
     }
 }

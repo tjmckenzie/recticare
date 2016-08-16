@@ -70,3 +70,8 @@ Route::get('/privacy', function () {
 Route::get('/faq', function () {
     return view('faq');
 });
+
+Route::get('email', function () {
+    $sample = App\SampleRequest::first();
+    return view('emails/sample-request', compact('sample'));
+});

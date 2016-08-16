@@ -23,7 +23,7 @@
             <div class="product">
                 <div class="col-half image">
                     <img src="{{ url('images/product/RectiCare_Cream_Front.png') }}" />
-                    <h3>RectiCare Anorectal Cream <sup>(30g)</sup></h3>
+                    <h3>RectiCare<sup>&reg;</sup>  Anorectal Cream <sup>(30g)</sup></h3>
                 </div>
                 <div class="col-half locations">
                     <div class="retailers">
@@ -44,7 +44,7 @@
             <div class="product">
                 <div class="col-half image">
                     <img src="{{ url('images/product/RectiCare_Complete_Front.png') }}" />
-                    <h3>RectiCare Complete</h3>
+                    <h3>RectiCare<sup>&reg;</sup>  Complete</h3>
                 </div>
                 <div class="col-half locations">
                     <div class="retailers">
@@ -65,7 +65,7 @@
             <div class="product">
                 <div class="col-half image">
                     <img src="{{ url('images/product/RectiCare_CreamVert_Front.png') }}" />
-                    <h3>RectiCare Anorectal Cream <sup>(15g)</sup></h3>
+                    <h3>RectiCare<sup>&reg;</sup>  Anorectal Cream <sup>(15g)</sup></h3>
                 </div>
                 <div class="col-half locations">
                     <div class="retailers">
@@ -86,7 +86,7 @@
             <div class="product">
                 <div class="col-half image">
                     <img src="{{ url('images/product/RectiCare_Wipes_Front.png') }}" />
-                    <h3>RectiCare Wipes</h3>
+                    <h3>RectiCare<sup>&reg;</sup>  Wipes</h3>
                 </div>
                 <div class="col-half locations">
                     <div class="retailers">

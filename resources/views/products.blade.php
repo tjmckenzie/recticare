@@ -10,7 +10,7 @@
             <img src="{{ url('images/products-banner-elements.png') }}" />
         </div>
         <div id="banner-text">
-            <h1>RectiCare Products</h1>
+            <h1>RectiCare<sup>&reg;</sup> Products</h1>
             <p>Recommended by Colon &amp; Rectal Surgeons</p>
         </div>
     </div>
@@ -24,9 +24,9 @@
                     <img src="{{ url('images/product/RectiCare_Cream_Front.png') }}" />
                 </div>
                 <div class="half desc">
-                    <h1>RectiCare Anorectal Cream <sup>(30g)</sup></h1>
+                    <h1>RectiCare<sup>&reg;</sup> Anorectal Cream <sup>(30g)</sup></h1>
                     <ul class="bullet">
-                        <li>The highest lidocaine strength available over-the-counter</li>
+                        <li>The highest lidocaine strength available <span class="nowrap">over-the-counter</span></li>
                         <li>Provides rapid relief from pain, itching and burning</li>
                         <li>Includes 10 non-latex finger cots for hygienic application</li>
                         <li>Recommended by Colon &amp; Rectal Surgeons</li>
@@ -38,7 +38,7 @@
 
             <div class="product right">
                 <div class="half desc">
-                    <h1>RectiCare Complete</h1>
+                    <h1>RectiCare<sup>&reg;</sup> Complete Hemorrhoid Care System</h1>
                     <ul class="bullet">
                         <li>Shrinks swollen hemorrhoidal tissue</li>
                         <li>Relieves pain, itching and irritation</li>
@@ -59,9 +59,9 @@
                     <img src="{{ url('images/product/RectiCare_CreamVert_Front.png') }}" />
                 </div>
                 <div class="half desc">
-                    <h1>RectiCare Anorectal Cream <sup>(15g)</sup></h1>
+                    <h1>RectiCare<sup>&reg;</sup> Anorectal Cream <sup>(15g)</sup></h1>
                     <ul class="bullet">
-                        <li>The highest lidocaine strength available over-the-counter</li>
+                        <li>The highest lidocaine strength available <span class="nowrap">over-the-counter</span></li>
                         <li>Provides rapid relief from pain, itching and burning</li>
                         <li>Includes 10 non-latex finger cots for hygienic application</li>
                         <li>Recommended by Colon &amp; Rectal Surgeons</li>
@@ -73,9 +73,9 @@
 
             <div class="product right">
                 <div class="half desc">
-                    <h1>RectiCare Wipes</h1>
+                    <h1>RectiCare<sup>&reg;</sup> Wipes</h1>
                     <ul class="bullet">
-                        <li>The highest lidocaine concentration available over-the-counter in a wipe</li>
+                        <li>The highest lidocaine concentration available <span class="nowrap">over-the-counter</span> in a wipe</li>
                         <li>Dual action formula protects and soothes</li>
                         <li>12 individually packaged wipes</li>
                         <li>Discreet and portable</li>

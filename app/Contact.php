@@ -16,5 +16,6 @@ class Contact extends Model
     	'ip_address',
     ];
 
+    protected $dates = ['created_at'];
     protected $casts = ['promotions' => 'boolean'];
 }

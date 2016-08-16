@@ -10,7 +10,7 @@
                 <h1>Doctor Resources</h1>
             </div>
             <div class="half">
-                <p>Fusce sed eleifend dolor.</p>
+                <p>See Why RectiCare<sup>&reg;</sup> Products Are Right for Your Patients</p>
             </div>
         </div>
     </div>
@@ -130,7 +130,7 @@
             <div class="form-row">
                 <div class="col half">
                     <div class="form-input {{ ($errors->has('reference')) ? 'has-error'  :''}}">
-                        <label for="reference">Reference: @if($errors->has('reference')) <span class="error-msg">Required</span> @endif</label>
+                        <label for="reference">How Did You Hear About Us? @if($errors->has('reference')) <span class="error-msg">Required</span> @endif</label>
                         <select name="reference" id="reference">
                             <option value="TV" {{ (old("reference") == 'TV' ? "selected":"") }}>TV</option>
                             <option value="Patient" {{ (old("reference") == 'Patient' ? "selected":"") }}>Patient</option>
@@ -143,7 +143,7 @@
 
                 <div class="col half">
                     <div class="form-input {{ ($errors->has('reference_other')) ? 'has-error'  :''}}">
-                        <label for="reference_other">if Other: @if($errors->has('reference_other')) <span class="error-msg">{{ $errors->first('reference_other') }}</span> @endif</label>
+                        <label for="reference_other">If other, please specify. @if($errors->has('reference_other')) <span class="error-msg">{{ $errors->first('reference_other') }}</span> @endif</label>
                         <input type="text" name="reference_other" id="reference_other" value="{{ old('reference_other') }}">
                     </div>
                 </div>
@@ -160,7 +160,7 @@
 
         <div id="ordering" class="tab-content {{ ($section == 'ordering') ? 'current' : '' }}">
             <h1>Ordering Information</h1>
-            <p><strong>For Healthcare Professionals Only: RectiCare can be ordered online through the Ferndale Healthcare website or by calling 1-888-548-0900 x234.</strong></p>
+            <p><strong>For Healthcare Professionals Only: RectiCare can be ordered online through the Ferndale Healthcare website <span class="nowrap">or by calling 1-888-548-0900 x234.</strong></span></p>
             <p>If you haven’t already created a login to the Physician Business Center, you may do so by following this link: <a href="http://ferndalehealthcare.com/login/" target="_blank">http://ferndalehealthcare.com/login/</a></p>
             <hr />
             <p>Please have the following information ready to provide:</p>
@@ -182,9 +182,8 @@
 
         <div id="contact-us" class="tab-content {{ ($section == 'contact-us') ? 'current' : '' }}">
             <h1>Contact Us</h1>
-            <p>We welcome any questions, concerns or success stories you may have about RectiCare<sup>&reg;</sup>. Please fill out the form and click "Submit" to contact us via email.</p>
-            <p>[ Form? ]</p>
-            <p>You can also write to us at the following address or call: </p>
+            <p>We welcome any questions, concerns or success stories you may have about RectiCare<sup>&reg;</sup>. To contact us via email, please use our <a href="{{ url('/contact') }}">contact page</a>.</p>
+            <p>You can also call or write to us at the following address: </p>
 
             <address>
                 Ferndale Healthcare<sup>&reg;</sup><br />
