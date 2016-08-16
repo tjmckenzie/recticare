@@ -37,14 +37,14 @@ return [
         'database' => [
             'driver' => 'database',
             'table' => 'jobs',
-            'queue' => 'recticare-test',
+            'queue' => 'default',
             'expire' => 90,
         ],
 
         'beanstalkd' => [
             'driver' => 'beanstalkd',
             'host' => 'localhost',
-            'queue' => 'default',
+            'queue' => 'recticare-test',
             'ttr' => 90,
         ],
 
