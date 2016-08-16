@@ -34,7 +34,7 @@ class SendContactEmail extends Job implements ShouldQueue
     {
         $mailer->send('emails.contact', ['contact' => $this->contact], function ($m) {
             $m->from(env('EMAIL_FROM'));
-            $m->sender($this->contact->email);
+            $m->sender(env('EMAIL_FROM'));
             $m->replyTo($this->contact->email);
             $m->to(env('EMAIL_TO'));
             $m->subject('RectiCare Contact: ' . $this->contact->name);

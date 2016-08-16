@@ -44,7 +44,7 @@ return [
         'beanstalkd' => [
             'driver' => 'beanstalkd',
             'host' => 'localhost',
-            'queue' => 'default',
+            'queue' => 'recticare-test',
             'ttr' => 90,
         ],
 
