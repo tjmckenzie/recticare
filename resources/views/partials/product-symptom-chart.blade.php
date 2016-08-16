@@ -4,7 +4,7 @@
         <div id="desc" class="half">
             <h2>Powerful Relief Designed for Your Life</h2>
             <p class="large-text">RectiCare<sup>&reg;</sup> products help you deal with the pain and discomfort of anorectal conditions, whether you’re at home or on-the-go.</p>
-            <p class="large-text">With products that offer powerful pain relief, protection or complete hemorrhoid care, RectiCare makes it simple to find the right solution to manage your condition – and help you get through your day easier.</p>
+            <p class="large-text">With products that offer powerful pain relief, protection or complete hemorrhoid care, RectiCare<sup>&reg;</sup>  makes it simple to find the right solution to manage your condition – and help you get through your day easier.</p>
         </div>
 
         <div id="chart" class="half">
@@ -13,7 +13,7 @@
                     <tr>
                         <th class="title"><span class="nowrap">Which RectiCare<sup>&reg;</sup> Product</span> <span class="nowrap">Is Right for You?</span></th>
                         <th class="check-column">RectiCare<sup>&reg;</sup><br />Cream</th>
-                        <th class="check-column">RectiCare<sup>&reg;</sup><br />Whipes</th>
+                        <th class="check-column">RectiCare<sup>&reg;</sup><br />Wipes</th>
                         <th class="check-column">RectiCare<sup>&reg;</sup><br />Complete</th>
                     </tr>
                 </thead>

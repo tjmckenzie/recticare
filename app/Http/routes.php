@@ -47,6 +47,8 @@ Route::get('/doctors/{section?}', function ( $section = null ) {
     return view('doctors', compact('section'));
 });
 
+Route::post('/samples', 'SampleRequestController@store');
+
 Route::get('/about-us', function () {
     return view('about');
 });
@@ -54,6 +56,8 @@ Route::get('/about-us', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::post('/contact', 'ContactController@store');
 
 Route::get('/safety', function () {
     return view('safety');

@@ -29,9 +29,9 @@
                 </ul>
 
                 <div id="overview" class="tab-content {{ (is_null($section) OR $section == 'overview') ? 'current' : '' }}">
-                    <h4 class="subhead">with RectiCare Advanced Hemorrhoidal Cream and RectiCare Advanced Hemorrhoidal Wipes</h4>
-                    <p>This complete kit is designed to offer total care for your hemorrhoids, both at home or on-the-go. The advanced, dual action formulas – RectiCare Advanced Hemorrhoidal Cream and RectiCare Advanced Hemorrhoidal Wipes – relieve the discomfort of hemorrhoids while shrinking and protecting the swollen tissue.</p>
-                    <ul class="bullet horizontal-nav">
+                    <h4 class="subhead">With RectiCare<sup>&reg;</sup>  Advanced Hemorrhoidal Cream and RectiCare<sup>&reg;</sup>  Advanced Hemorrhoidal Wipes</h4>
+                    <p>This complete kit is designed to offer total care for your hemorrhoids, both at home or on-the-go. The advanced, dual action formulas – RectiCare<sup>&reg;</sup>  Advanced Hemorrhoidal Cream and RectiCare<sup>&reg;</sup>  Advanced Hemorrhoidal Wipes – relieve the discomfort of hemorrhoids while shrinking and protecting the swollen tissue.</p>
+                    <ul class="bullet">
                         <li>Shrinks swollen hemorrhoidal tissue</li>
                         <li>Relieves pain, itching and irritation</li>
                         <li>Dual action formulas soothe and protect</li>
@@ -50,7 +50,7 @@
 
                 </div>
                 <div id="how-it-works" class="tab-content {{ ($section == 'how-it-works') ? 'current' : '' }}">
-                    <p>In one box, RectiCare<sup>&reg;</sup> Complete offers both Advanced Cream and Advanced Wipes together.</p>
+                    <p>In one box, RectiCare<sup>&reg;</sup> Complete Hemorrhoid Care System offers both Advanced Cream and Advanced Wipes together.</p>
                     <p>RectiCare<sup>&reg;</sup> Advanced Hemorrhoidal Cream contains the highest concentrations of lidocaine and phenylephrine HCl available without a prescription to reduce pain and irritation as well as swelling of hemorrhoids. White petrolatum and mineral oil act as protection for the inflamed tissue in between applications.</p>
                     <p>RectiCare<sup>&reg;</sup> Advanced Hemorrhoidal Wipes contain the highest concentrations of lidocaine and phenylephrine HCl available in a non-prescription wipe, to effectively relieve the discomfort of hemorrhoids and to help shrink the swollen tissue.</p>
                     <p>After you apply by gently patting the wipe to the clean, affected area, there will be a thin, protective coating of glycerin over the inflamed tissue to help prevent some further irritation.</p>

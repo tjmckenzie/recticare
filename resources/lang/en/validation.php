@@ -94,8 +94,8 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'reference_other' => [
+            'required_if' => 'Required if "other" is selected',
         ],
     ],
 

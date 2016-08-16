@@ -78,7 +78,7 @@
                     <li><a href="{{ url('/faq') }}">FAQS</a></li>
                 </ul>
                 <hr />
-                <span>Copyright &copy; 2016 RectiCare - All Rights Reserved</span>
+                <span>Copyright &copy; 2016 RectiCare<sup>&reg;</sup> - All Rights Reserved</span>
             </div>
         </footer>
 

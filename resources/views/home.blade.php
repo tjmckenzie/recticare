@@ -19,25 +19,25 @@
         <div class=" product">
             <a href="{{ url('/product/recticare-cream') }}">
                 <img src="{{ url('images/product/RectiCare_Cream_Front.png') }}" />
-                <p><strong>RectiCare Anorectal Cream</strong> <sup>(30g)</sup></p>
+                <p><strong>RectiCare<sup>&reg;</sup> Anorectal Cream</strong> <sup>(30g)</sup></p>
             </a>
         </div>
         <div class=" product">
             <a href="{{ url('/product/recticare-complete') }}">
                 <img src="{{ url('images/product/RectiCare_Complete_Front.png') }}" />
-                <p><strong>RectiCare Complete</strong></p>
+                <p><strong>RectiCare<sup>&reg;</sup> Complete Hemorrhoid Care System</strong></p>
             </a>
         </div>
         <div class=" product">
             <a href="{{ url('/product/recticare-cream') }}">
                 <img src="{{ url('images/product/RectiCare_CreamVert_Front.png') }}" />
-                <p><strong>RectiCare Anorectal Cream</strong> <sup>(15g)</sup></p>
+                <p><strong>RectiCare<sup>&reg;</sup> Anorectal Cream</strong> <sup>(15g)</sup></p>
             </a>
         </div>
         <div class=" product">
             <a href="{{ url('/product/recticare-wipes') }}">
                 <img src="{{ url('images/product/RectiCare_Wipes_Front.png') }}" />
-                <p><strong>RectiCare Wipes</strong></p>
+                <p><strong>RectiCare<sup>&reg;</sup> Wipes</strong></p>
             </a>
         </div>
     </div>

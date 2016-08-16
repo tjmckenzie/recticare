@@ -14,7 +14,7 @@
                 <h1>Patient Resources</h1>
             </div>
             <div class="half">
-                <p>Phasellus neque lacus, pellentesque ut leo eget, tincidunt bibendum sem.</p>
+                <p>“Learn More about the Conditions RectiCare<sup>&reg;</sup> Can Help You With</p>
             </div>
         </div>
     </div>
@@ -110,6 +110,8 @@
                 <h2>Hemorrhoid Treatment Options</h2>
                 <p>Your Physician may recommend a minimally invasive procedure or surgical intervention if conservative treatments fail, or if your hemorrhoids are large, persistently bleed and/or become increasingly painful. Consult your Physician to determine which treatment option is best for your situation.</p>
 
+                <hr />
+
                 <h3>Minimally Invasive Procedures</h3>
 
                 <strong>Rubber Band Ligation</strong>
@@ -128,6 +130,8 @@
                     <li>Small, bleeding internal hemorrhoids are shrunk using laser, infrared light or heat</li>
                 </ul>
 
+                <hr />
+
                 <h3>Surgical Procedures</h3>
 
                 <strong>Hemorrhoid Stapling</strong>
@@ -141,7 +145,7 @@
                 </ul>
             </div>
             <div id="patient-resource" class="tab-content {{ ($section == 'patient-resource') ? 'current' : '' }}">
-                <h3>Patient Resources</h3>
+                <h2>Patient Resources</h2>
                 <p>Many patients delay or don’t seek treatment because of their lack of knowledge about their disease and its symptoms – or they are too embarrassed to seek help. Research has demonstrated that early screening and treatment of colon and rectal diseases can improve outcomes and survival rates. A number of organizations are committed to the research, education and treatment of these diseases. Below are the links to their Patient Education and Patient Resource Center’s.</p>
                 <div class="link-container">
 

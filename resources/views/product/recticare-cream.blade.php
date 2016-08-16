@@ -27,8 +27,8 @@
 
                 <div id="overview" class="tab-content {{ (is_null($section) OR $section == 'overview') ? 'current' : '' }}">
                     <p>For fast relief from pain, itching and burning associated with hemorrhoids and other anorectal disorders, use RectiCare<sup>&reg;</sup> Anorectal Cream.</p>
-                    <p>RectiCare contains 5% lidocaine, a local anesthetic that provides fast relief from pain and discomfort. Physicians have trusted lidocaine for decades as a local anesthetic during minor surgeries.</p>
-                    <ul class="bullet horizontal-nav">
+                    <p>RectiCare<sup>&reg;</sup>  contains 5% lidocaine, a local anesthetic that provides fast relief from pain and discomfort. Physicians have trusted lidocaine for decades as a local anesthetic during minor surgeries.</p>
+                    <ul class="bullet">
                         <li>The highest lidocaine strength available over-the-counter</li>
                         <li>Provides rapid relief from pain, itching and burning</li>
                         <li>Includes 10 non-latex finger cots for hygienic application</li>
