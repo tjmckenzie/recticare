@@ -37,7 +37,7 @@ return [
         'database' => [
             'driver' => 'database',
             'table' => 'jobs',
-            'queue' => 'default',
+            'queue' => 'recticare-test',
             'expire' => 90,
         ],
 
