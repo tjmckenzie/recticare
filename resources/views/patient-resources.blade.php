@@ -198,8 +198,16 @@
                 <p>CCA Toll-free Helpline (877) 422-2030</p>
             </div>
             <div id="contact-us" class="tab-content {{ ($section == 'contact-us') ? 'current' : '' }}">
-                <h3>Contact Us</h3>
-                Sed ultrices eleifend nibh et facilisis. Proin consectetur eu velit at molestie. Mauris nec risus eget diam ullamcorper semper sit amet in augue. Nulla facilisi. Proin posuere ex sit amet sollicitudin luctus. Pellentesque est dui, pellentesque vel aliquet sit amet, auctor et nulla. Nam eget ornare nunc. Ut tincidunt velit eu enim bibendum, sit amet fermentum lectus semper. Praesent auctor ex magna, lobortis molestie tortor finibus id. Proin imperdiet lectus at viverra tincidunt. In tempus turpis nec ligula pharetra, in ultricies lorem venenatis.
+                <h1>Contact Us</h1>
+                <p>We welcome any questions, concerns or success stories you may have about RectiCare<sup>&reg;</sup>. To contact us via email, please use our <a href="{{ url('/contact') }}">contact page</a>.</p>
+                <p>You can also call or write to us at the following address: </p>
+
+                <address>
+                    Ferndale Healthcare<sup>&reg;</sup><br />
+                    Inc. 780 W. Eight Mile Rd. <br />
+                    Ferndale, MI 48220<br />
+                    866.668.7482
+                </address>
             </div>
 
         </div>
