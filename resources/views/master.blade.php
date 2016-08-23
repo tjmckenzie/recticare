@@ -16,7 +16,7 @@
 
         @if( env('APP_ENV') != "production" )
 
-        <link rel="stylesheet" href="{{ url('css/app.css') }}">
+        <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -82,8 +82,8 @@
             </div>
         </footer>
 
-        <script   src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
-        <script type="text/javascript" src="{{ url('js/bundle.js') }}"></script>
+        <script type="text/javascript" src="{{ elixir('js/bundle.js') }}"></script>
+
         @yield('scripts')
 
         @if ( env('APP_ENV') == "local" )
