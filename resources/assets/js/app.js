@@ -1,3 +1,4 @@
+var $ = require('jquery');
 $(document).ready(function () {
     /**
      * Tabbed content allows for history.state faking.

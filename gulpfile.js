@@ -15,6 +15,7 @@ require('laravel-elixir-livereload');
 elixir(function(mix) {
     mix.sass('app.scss')
        .browserify(['app.js'])
-       .copy('resources/assets/fonts/font-awesome', 'public/fonts/font-awesome')
+       .version(['css/app.css', 'js/bundle.js'])
+       .copy('resources/assets/fonts/font-awesome', 'public/build/fonts/font-awesome')
        .livereload();
 });
