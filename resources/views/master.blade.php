@@ -7,16 +7,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>@yield('page_title')</title>
+        @yield('canonical')
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        @if( env('APP_ENV') != "production")
-        <meta name="robots" content="noindex">
-        @endif
-
-        @if( env('APP_ENV') != "production" )
-
-        <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -25,6 +18,11 @@
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="theme-color" content="#ffffff">
 
+        @if( env('APP_ENV') != "production")
+        <meta name="robots" content="noindex">
+        @endif
+
+        @if( env('APP_ENV') = "production" )
         <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
             function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
@@ -35,8 +33,8 @@
         </script>
         @endif
 
-        @yield('canonical')
 
+        <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
         @yield('styles')
 
     </head>
